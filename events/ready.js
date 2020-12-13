@@ -5,7 +5,7 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
    client.user.setStatus('dnd') 
-   client.user.setActivity(`${prefix}yardım |  | ${client.guilds.cache.size} Sunucu`);
+   client.user.setActivity(`Code My life`);
    console.log(`[ BOT HAZIR ] - [ SUNUCULAR - ${client.guilds.cache.size} ] - [ KULLANICILAR - ${client.guilds.cache
           .reduce((a, b) => a + b.memberCount, 0)
           .toLocaleString()} ]`)
