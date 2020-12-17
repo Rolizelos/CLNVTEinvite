@@ -1,8 +1,7 @@
 const fs = require('fs');
 const db = require('quick.db')
 const wiodb = require('wio.db')
-const ms2 = require('parse-ms')
-const ms = require("ms")
+const ms = require("parse-ms")
 const Canvas = require('canvas')//pythonic
 const ayarlar = require('./ayarlar.json');//pythonic
 require('./invite.js')
